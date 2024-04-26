@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UST\\GIT GITHUB\\workspace\\web d net\\web_d_net\\web_d_net.csproj": {}
+    "D:\\UST\\GIT GITHUB\\workspace\\web_d_net\\web_d_net.csproj": {}
   },
   "projects": {
-    "D:\\UST\\GIT GITHUB\\workspace\\web d net\\web_d_net\\web_d_net.csproj": {
+    "D:\\UST\\GIT GITHUB\\workspace\\web_d_net\\web_d_net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UST\\GIT GITHUB\\workspace\\web d net\\web_d_net\\web_d_net.csproj",
+        "projectUniqueName": "D:\\UST\\GIT GITHUB\\workspace\\web_d_net\\web_d_net.csproj",
         "projectName": "web_d_net",
-        "projectPath": "D:\\UST\\GIT GITHUB\\workspace\\web d net\\web_d_net\\web_d_net.csproj",
+        "projectPath": "D:\\UST\\GIT GITHUB\\workspace\\web_d_net\\web_d_net.csproj",
         "packagesPath": "C:\\Users\\VISWA\\.nuget\\packages\\",
-        "outputPath": "D:\\UST\\GIT GITHUB\\workspace\\web d net\\web_d_net\\obj\\",
+        "outputPath": "D:\\UST\\GIT GITHUB\\workspace\\web_d_net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VISWA\\AppData\\Roaming\\NuGet\\NuGet.Config",

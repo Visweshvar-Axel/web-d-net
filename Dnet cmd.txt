@@ -1,0 +1,44 @@
+dotnet new web --name web_d_net
+
+D:\UST\GIT GITHUB\workspace\web_d_net>git push -u origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 3.42 KiB | 1.71 MiB/s, done.
+Total 16 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Visweshvar-Axel/web-d-net.git
+   9b6cbc5..82ef3d5  main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\UST\GIT GITHUB\workspace\web_d_net>dotnet restore
+  Determining projects to restore...
+  Restored D:\UST\GIT GITHUB\workspace\web_d_net\web_d_net.csproj (in 90 ms
+  ).
+
+D:\UST\GIT GITHUB\workspace\web_d_net>dotnet build
+MSBuild version 17.3.2+561848881 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  web_d_net -> D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\web_d
+  _net.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.83
+
+D:\UST\GIT GITHUB\workspace\web_d_net>dotnet test
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+
+D:\UST\GIT GITHUB\workspace\web_d_net>dotnet publish
+MSBuild version 17.3.2+561848881 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  web_d_net -> D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\web_d
+  _net.dll
+  web_d_net -> D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publi
+  sh\

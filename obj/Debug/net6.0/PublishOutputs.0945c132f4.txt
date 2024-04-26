@@ -1,0 +1,7 @@
+D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publish\web_d_net.exe
+D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publish\appsettings.Development.json
+D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publish\appsettings.json
+D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publish\web_d_net.dll
+D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publish\web_d_net.deps.json
+D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publish\web_d_net.runtimeconfig.json
+D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publish\web_d_net.pdb

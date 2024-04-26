@@ -1,0 +1,40 @@
+name: Continuous Integration Demo
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+env:
+  DOTNET_VERSION: 6.0.421
+
+defaults:
+  run:
+    shell: bash
+    working-directory: ./web_d_net
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checlout@v2
+
+      - name: set up .net core
+        uses: action/setup-dotnet@v2
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION}}
+
+      - name: install dependencies
+        run: dotnet restore
+
+      - name: build with dotnet
+        run: dotnet build --configuration Release
+
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ${{ env.DOTNET_ROOT }}/myapp
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v3
+        with:
+          name: .net-app
+          path: ${{ env.DOTNET_ROOT }}/myapp

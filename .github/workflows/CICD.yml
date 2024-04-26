@@ -17,7 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checlout@v2
+      - uses: action/checout@v2
 
       - name: set up .net core
         uses: action/setup-dotnet@v2

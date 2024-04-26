@@ -42,3 +42,7 @@ MSBuild version 17.3.2+561848881 for .NET
   _net.dll
   web_d_net -> D:\UST\GIT GITHUB\workspace\web_d_net\bin\Debug\net6.0\publi
   sh\
+
+
+D:\UST\GIT GITHUB\workspace\web_d_net>dotnet new gitignore
+The template "dotnet gitignore file" was created successfully.
